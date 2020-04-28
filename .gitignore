@@ -1,0 +1,6 @@
+**/.ipynb_checkpoints
+.DS_Store
+3-Object-detection-and-segmentation/Mask_RCNN
+3-Object-detection-and-segmentation/mask_rcnn_coco.h5
+2-Building-convolutional-neural-networks/models
+3-Object-detection-and-segmentation/report.txt
