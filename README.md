@@ -8,7 +8,7 @@
 
 This repository contains the course materials of Computer Vision course, which is held at Sebratec academy, in Gothenburg, Sweden.
 
-**Important:** This still a work in progress. More lab materials are expected to come in the following weeks.
+**Important:** This is still a work in progress. More lab materials are expected to come in the following weeks.
 
 ## Course Abstract
 
