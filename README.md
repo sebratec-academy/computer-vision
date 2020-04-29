@@ -1,12 +1,14 @@
 ![sebratec logo](https://user-images.githubusercontent.com/20716798/74448368-1ea07e80-4e7b-11ea-9e73-5c29ad328fc0.png)
 
-![quality assurance](https://github.com/sebratec/computer-vision/workflows/quality%20assurance/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/feb9e91fb280cd38a2cd/maintainability)](https://codeclimate.com/repos/5e8e7f2e7d738b018c008897/maintainability)
+![quality assurance](https://github.com/sebratec-academy/computer-vision/workflows/quality%20assurance/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5772d3acc11fdc3a9b4e/maintainability)](https://codeclimate.com/github/sebratec-academy/computer-vision/maintainability)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sebratec-academy/deep-learning-foundation/issues)
 
 # Computer Vision
 
 This repository contains the course materials of Computer Vision course, which is held at Sebratec academy, in Gothenburg, Sweden.
+
+**Important:** This still a work in progress. More lab materials are expected to come in the following weeks.
 
 ## Course Abstract
 
