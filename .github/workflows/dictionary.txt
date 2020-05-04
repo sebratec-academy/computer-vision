@@ -221,3 +221,4 @@ upsample
 28x28x1
 1s
 0s
+variated
