@@ -207,3 +207,17 @@ RCNN
 Mask_RCNN
 300k
 CocoConfig
+Autoencoders
+autoencoders
+lossy
+autoencoder
+MaxPooling
+UpSampling
+GANs
+GAN
+Goodfellow
+upsampling
+upsample
+28x28x1
+1s
+0s
