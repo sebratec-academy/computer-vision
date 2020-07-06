@@ -1,7 +1,10 @@
 **/.ipynb_checkpoints
 .DS_Store
-3-Object-detection-and-segmentation/Mask_RCNN
-3-Object-detection-and-segmentation/mask_rcnn_coco.h5
+3-Object-detection-and-segmentation/mask-rcnn/Mask_RCNN
+3-Object-detection-and-segmentation/mask-rcnn/mask_rcnn_coco.h5
+3-Object-detection-and-segmentation/single-shot-multibox-detector/ssd_keras
+3-Object-detection-and-segmentation/single-shot-multibox-detector/ssd_keras/vgg_voc_weights.h5
+3-Object-detection-and-segmentation/single-shot-multibox-detector/report.txt
 2-Building-convolutional-neural-networks/models
 3-Object-detection-and-segmentation/report.txt
 4-Autoencoders/model.png
