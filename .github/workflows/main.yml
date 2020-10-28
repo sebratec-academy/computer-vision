@@ -22,7 +22,7 @@ jobs:
         path: ~/.npm
         key: "ac4d7baefb590ce47f525ca2063ee844"
     - name: Install dependencies required by the grammar check step
-      run: " pip3 install jupyterlab && npm install --global spellchecker-cli"
+      run: " pip3 install jupyterlab && pip3 install nbconvert==5.6.1 && npm install --global spellchecker-cli"
     - name: Convert jupyter notebooks to markdown
       run: " jupyter nbconvert **/*.ipynb --to markdown"
     - name: Check grammar
@@ -30,7 +30,7 @@ jobs:
     - name: Copy project folder structure to runner
       run: " cp **/*.ipynb . &&  find . -type d | cpio -pd /home/runner/work/_temp/nb-runner"
     - name: Install dependencies required to test the Jupyter notebooks (tensorflow, keras, numpy)
-      run: "echo '{}' > params.json && pip3 install -U pip && pip3 install -U setuptools && pip3 install numpy && pip3 install pandas && pip3 install sklearn && pip3 install matplotlib && pip3 install keras && pip3 install --upgrade tensorflow==2.0.0-rc0"
+      run: "echo '{}' > params.json && pip3 install -U pip && pip3 install -U setuptools && pip3 install -r requirements.txt"
     - uses: yaananth/run-notebook@v1
       env:
         RUNNER: ${{ toJson(runner) }}
